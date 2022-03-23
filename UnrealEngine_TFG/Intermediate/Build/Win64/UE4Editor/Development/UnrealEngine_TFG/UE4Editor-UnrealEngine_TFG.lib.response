@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UnrealEngine_TFG.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UOC-Grado_Ingenieria_Informática\Semestre_08\TFG\TFG_Project\TFG_GitHub\UnrealEngine_TFG\Intermediate\Build\Win64\UnrealEngine_TFGEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\UOC-Grado_Ingenieria_Informática\Semestre_08\TFG\TFG_Project\TFG_GitHub\UnrealEngine_TFG\Intermediate\Build\Win64\UE4Editor\Development\UnrealEngine_TFG\UnrealEngine_TFG.cpp.obj"
+"D:\UOC-Grado_Ingenieria_Informática\Semestre_08\TFG\TFG_Project\TFG_GitHub\UnrealEngine_TFG\Intermediate\Build\Win64\UE4Editor\Development\UnrealEngine_TFG\UnrealEngine_TFGGameModeBase.cpp.obj"
+"D:\UOC-Grado_Ingenieria_Informática\Semestre_08\TFG\TFG_Project\TFG_GitHub\UnrealEngine_TFG\Intermediate\Build\Win64\UE4Editor\Development\UnrealEngine_TFG\UnrealEngine_TFG.init.gen.cpp.obj"
+"D:\UOC-Grado_Ingenieria_Informática\Semestre_08\TFG\TFG_Project\TFG_GitHub\UnrealEngine_TFG\Intermediate\Build\Win64\UE4Editor\Development\UnrealEngine_TFG\UnrealEngine_TFGGameModeBase.gen.cpp.obj"
+"D:\UOC-Grado_Ingenieria_Informática\Semestre_08\TFG\TFG_Project\TFG_GitHub\UnrealEngine_TFG\Intermediate\Build\Win64\UE4Editor\Development\UnrealEngine_TFG\Default.rc2.res"
+/OUT:"D:\UOC-Grado_Ingenieria_Informática\Semestre_08\TFG\TFG_Project\TFG_GitHub\UnrealEngine_TFG\Intermediate\Build\Win64\UE4Editor\Development\UnrealEngine_TFG\UE4Editor-UnrealEngine_TFG.lib"

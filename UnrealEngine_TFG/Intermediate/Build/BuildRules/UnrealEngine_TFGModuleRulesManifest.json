@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UOC-Grado_Ingenieria_Informática\\Semestre_08\\TFG\\TFG_Project\\TFG_GitHub\\UnrealEngine_TFG\\Source\\UnrealEngine_TFG\\UnrealEngine_TFG.Build.cs",
+		"D:\\UOC-Grado_Ingenieria_Informática\\Semestre_08\\TFG\\TFG_Project\\TFG_GitHub\\UnrealEngine_TFG\\Source\\UnrealEngine_TFG.Target.cs",
+		"D:\\UOC-Grado_Ingenieria_Informática\\Semestre_08\\TFG\\TFG_Project\\TFG_GitHub\\UnrealEngine_TFG\\Source\\UnrealEngine_TFGEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
