@@ -1,0 +1,9 @@
+D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE4Editor\Development\UE_TFG\Definitions.UE_TFG.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Source\UE_TFG/UE_TFGGameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE4Editor\Inc\UE_TFG\UE_TFGGameModeBase.generated.h
