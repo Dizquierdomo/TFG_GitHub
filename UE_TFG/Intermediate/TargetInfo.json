@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UE_TFG",
+			"Path": "D:\\UOC-Grado_Ingenieria_Informatica\\Semestre_08\\TFG\\TFG_Project\\TFG_GitHub\\UE_TFG\\Source\\UE_TFG.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UE_TFGEditor",
+			"Path": "D:\\UOC-Grado_Ingenieria_Informatica\\Semestre_08\\TFG\\TFG_Project\\TFG_GitHub\\UE_TFG\\Source\\UE_TFGEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UOC-Grado_Ingenieria_Informatica\\Semestre_08\\TFG\\TFG_Project\\TFG_GitHub\\UE_TFG\\Source\\UE_TFG\\UE_TFG.Build.cs",
+		"D:\\UOC-Grado_Ingenieria_Informatica\\Semestre_08\\TFG\\TFG_Project\\TFG_GitHub\\UE_TFG\\Source\\UE_TFG.Target.cs",
+		"D:\\UOC-Grado_Ingenieria_Informatica\\Semestre_08\\TFG\\TFG_Project\\TFG_GitHub\\UE_TFG\\Source\\UE_TFGEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

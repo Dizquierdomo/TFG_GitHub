@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UE_TFG.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE_TFGEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE4Editor\Development\UE_TFG\UE_TFG.cpp.obj"
+"D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE4Editor\Development\UE_TFG\UE_TFGGameModeBase.cpp.obj"
+"D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE4Editor\Development\UE_TFG\UE_TFG.init.gen.cpp.obj"
+"D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE4Editor\Development\UE_TFG\UE_TFGGameModeBase.gen.cpp.obj"
+"D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE4Editor\Development\UE_TFG\Default.rc2.res"
+/OUT:"D:\UOC-Grado_Ingenieria_Informatica\Semestre_08\TFG\TFG_Project\TFG_GitHub\UE_TFG\Intermediate\Build\Win64\UE4Editor\Development\UE_TFG\UE4Editor-UE_TFG.lib"
