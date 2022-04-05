@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UE_TFG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BF41FAB2-022A-4C7C-842B-2D5864575688}</UniqueIdentifier>
+      <UniqueIdentifier>{81870D42-495C-45E0-91C9-87CA702B1DE1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE_TFG.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D53146AD-3DBB-4400-9DBD-32EE30F92BFE}</UniqueIdentifier>
+      <UniqueIdentifier>{72A4D7AD-BDC2-45D0-9091-C0AA096D6346}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\UE_TFG">
-      <UniqueIdentifier>{A966EB94-98FF-413B-A184-2CC2F1E0C9C1}</UniqueIdentifier>
+      <UniqueIdentifier>{D9B5F923-F90D-4F0C-9516-A7F80E7BE9BA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE_TFG\UE_TFG.Build.cs">
       <Filter>Source\UE_TFG</Filter>
@@ -41,5 +41,11 @@
     <ClInclude Include="..\..\Source\UE_TFG\UE_TFGGameModeBase.h">
       <Filter>Source\UE_TFG</Filter>
     </ClInclude>
+    <Filter Include="Source\UE_TFG\Private">
+      <UniqueIdentifier>{A68E967F-4A97-40BF-AC00-8752D9C1E474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UE_TFG\Public">
+      <UniqueIdentifier>{D48280B9-27C3-4316-878C-E89E32221F4B}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
