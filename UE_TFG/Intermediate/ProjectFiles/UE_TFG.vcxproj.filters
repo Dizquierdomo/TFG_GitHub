@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\UE_TFG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{81870D42-495C-45E0-91C9-87CA702B1DE1}</UniqueIdentifier>
+      <UniqueIdentifier>{43AED898-3ADC-439C-8E36-DAE454598F56}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\UE_TFG.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\UE_TFGEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{72A4D7AD-BDC2-45D0-9091-C0AA096D6346}</UniqueIdentifier>
+      <UniqueIdentifier>{EBEFA04D-C352-410F-A5E4-39933ED4E0C1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +24,42 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\UE_TFG">
-      <UniqueIdentifier>{D9B5F923-F90D-4F0C-9516-A7F80E7BE9BA}</UniqueIdentifier>
+      <UniqueIdentifier>{1A5ABFF2-1939-41A3-AAE3-9BFF880CEA18}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UE_TFG\Enemy.cpp">
+      <Filter>Source\UE_TFG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE_TFG\Enemy.h">
+      <Filter>Source\UE_TFG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE_TFG\Gladiator.cpp">
+      <Filter>Source\UE_TFG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE_TFG\Gladiator.h">
+      <Filter>Source\UE_TFG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE_TFG\MyCharacter.cpp">
+      <Filter>Source\UE_TFG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE_TFG\MyCharacter.h">
+      <Filter>Source\UE_TFG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE_TFG\PlayerCharacter.cpp">
+      <Filter>Source\UE_TFG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE_TFG\PlayerCharacter.h">
+      <Filter>Source\UE_TFG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE_TFG\PlayerCharacterController.cpp">
+      <Filter>Source\UE_TFG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE_TFG\PlayerCharacterController.h">
+      <Filter>Source\UE_TFG</Filter>
+    </ClInclude>
     <None Include="..\..\Source\UE_TFG\UE_TFG.Build.cs">
       <Filter>Source\UE_TFG</Filter>
     </None>
@@ -41,11 +75,5 @@
     <ClInclude Include="..\..\Source\UE_TFG\UE_TFGGameModeBase.h">
       <Filter>Source\UE_TFG</Filter>
     </ClInclude>
-    <Filter Include="Source\UE_TFG\Private">
-      <UniqueIdentifier>{A68E967F-4A97-40BF-AC00-8752D9C1E474}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\UE_TFG\Public">
-      <UniqueIdentifier>{D48280B9-27C3-4316-878C-E89E32221F4B}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
 </Project>
