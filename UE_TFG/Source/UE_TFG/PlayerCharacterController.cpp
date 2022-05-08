@@ -18,7 +18,7 @@ APlayerCharacterController::APlayerCharacterController() {
 void APlayerCharacterController::BeginPlay() {
     Super::BeginPlay();
 
-    
+    /*
     // Search for player character.
     for (TActorIterator<AGladiator> It(GetWorld()); It; ++It) {
         AGladiator* aux = *It; 
@@ -32,7 +32,7 @@ void APlayerCharacterController::BeginPlay() {
     if (playerCharacter != nullptr) {
         SetViewTarget(playerCharacter);
     }
-    
+    */
 }
 
 // Called every frame
