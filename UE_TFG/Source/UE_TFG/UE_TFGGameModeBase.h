@@ -14,4 +14,5 @@ class UE_TFG_API AUE_TFGGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+	virtual void StartPlay() override;
 };
