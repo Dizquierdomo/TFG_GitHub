@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeUE_TFG_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9C2C0338,
+				0x0B5A78E2,
 				0x7BF46F0D,
 				METADATA_PARAMS(nullptr, 0)
 			};

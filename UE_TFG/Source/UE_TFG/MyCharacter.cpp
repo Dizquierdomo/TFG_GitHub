@@ -37,17 +37,20 @@ void AMyCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputC
 	// Set up key/axis bindings
 	check(PlayerInputComponent);
 	
-	PlayerInputComponent->BindAxis("MoveForward", this, &AMyCharacter::FrontalMove);
-	PlayerInputComponent->BindAxis("MoveBackward", this, &AMyCharacter::FrontalMove);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AMyCharacter::LateralMove);
-	PlayerInputComponent->BindAxis("MoveLeft", this, &AMyCharacter::LateralMove);
+	PlayerInputComponent->BindAxis("MoveForward", this, &AMyCharacter::ForwardMove);
+	PlayerInputComponent->BindAxis("MoveBackward", this, &AMyCharacter::BackwardMove);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AMyCharacter::RightMove);
+	PlayerInputComponent->BindAxis("MoveLeft", this, &AMyCharacter::LeftMove);
 		
 	PlayerInputComponent->BindAxis("RotateCameraX", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("RotateCameraY", this, &APawn::AddControllerPitchInput);
 }
 
-void AMyCharacter::FrontalMove(float Value) {
+void AMyCharacter::ForwardMove(float Value) {
+	
 	if ((Controller != nullptr) && (Value != 0.0f))	{
+		IsWalkingForward = true;
+
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
@@ -55,11 +58,34 @@ void AMyCharacter::FrontalMove(float Value) {
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value / 2);
+
+	} else {
+		IsWalkingForward = false;
 	}
 }
 
-void AMyCharacter::LateralMove(float Value) {
+void AMyCharacter::BackwardMove(float Value) {		
+
+	if ((Controller != nullptr) && (Value != 0.0f)) {
+		IsWalkingBackward = true;
+
+		// find out which way is forward
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		// get forward vector
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, Value / 2);
+	} else {
+		IsWalkingBackward = false;
+	}
+}
+
+void AMyCharacter::RightMove(float Value) {
+	
 	if ((Controller != nullptr) && (Value != 0.0f))	{
+		IsWalkingRight = true;
+
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw, 0);
@@ -68,5 +94,26 @@ void AMyCharacter::LateralMove(float Value) {
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction
 		AddMovementInput(Direction, Value / 2);
+	} else {
+		IsWalkingRight = false;		
+	}
+}
+
+void AMyCharacter::LeftMove(float Value) {
+
+	if ((Controller != nullptr) && (Value != 0.0f)) {
+		IsWalkingLeft = true;
+
+		// find out which way is right
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		// get right vector 
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		// add movement in that direction
+		AddMovementInput(Direction, Value / 2);
+	}
+	else {
+		IsWalkingLeft = false;
 	}
 }

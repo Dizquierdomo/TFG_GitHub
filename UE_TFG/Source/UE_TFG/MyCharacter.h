@@ -18,14 +18,30 @@ class AMyCharacter : public ACharacter
 	class UCameraComponent* FollowCamera;
 
 public:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool IsWalkingForward;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool IsWalkingBackward;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool IsWalkingRight;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool IsWalkingLeft;
+
+
 	AMyCharacter();
 	
 protected:
 	/** Called for forwards/backward input */
-	void FrontalMove(float Value);
+	void ForwardMove(float Value);
+
+	void BackwardMove(float Value);
 
 	/** Called for right/left input */
-	void LateralMove(float Value);
+	void RightMove(float Value);
+	void LeftMove(float Value);
 
 protected:
 	/** Allows the character to receive inputs  **/
